@@ -7,4 +7,9 @@
         bool
     */
 
-void main() {}
+bool func(int a){
+    return a<0;
+}
+void main() {
+    print(func(-3));
+}
